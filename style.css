@@ -1,0 +1,18 @@
+@import "reset.css";
+@import "/Users/kicklani/WD/app_develop/minyong_p/style/nav-bar.css";
+
+/* 다운받은 외부 폰트 불러오기 */
+@font-face {
+  /* 폰트 패밀리로 할 이름 설정하기 */
+  font-family: "Hanna";
+  src: url("fonts/BMHANNAPro.ttf");
+}
+
+body {
+  background-color: #f5f5dc;
+  height: fit-content;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

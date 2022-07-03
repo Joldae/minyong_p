@@ -1,0 +1,33 @@
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+  opacity: 0.8;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.nav_bar .nav_bar_left {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.nav_bar .nav_bar_right {
+  padding-right: 30px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 17px;
+  /* font-family: Hanna; */
+}
+
+.nav_bar_right span:hover {
+  color: khaki;
+  font-size: 21px;
+}
