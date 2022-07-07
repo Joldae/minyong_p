@@ -1,0 +1,31 @@
+.main_box {
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  /* 화면에 꽉 차게 맞게 조절해주는 설정 */
+  /* 100 vW -> 100%의 viewport width 설정 */
+  /* 100 vH -> 100%의 viewport height 설정 */
+  background-color: rgb(178, 178, 178, 0.5);
+}
+
+.main_right .textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 2rem;
+}
+
+/* 커서 깜빡이는 효과 구현 */
+.blink {
+  animation: blink 0.5s infinite;
+  font-size: 2.5rem;
+}
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

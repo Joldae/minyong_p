@@ -9,25 +9,36 @@
       src="https://kit.fontawesome.com/3fa9ce1ab6.js"
       crossorigin="anonymous"
     ></script>
-
+    <!-- jquery삽입 코드 구글 CDN을 활용해 추가-->
     <title>P_project</title>
   </head>
   <body>
     <div class="nav_bar">
       <div class="nav_bar_left">
-        <span>confidential project</span>
+        <span>ppppppppppp project</span>
         <i class="fa fa-heart" style="font-size: 25px"></i>
       </div>
       <div class="nav_bar_right">
-        <span><a href="#letter">LETTER</a></span>
+        <span><a href="#home">Home</a></span>
+        <span><a href="#letter">Letter</a></span>
         <span>text2</span>
         <span>text3</span>
       </div>
     </div>
 
-    <div class="main_box"></div>
+    <div class="main_box" id="home">
+      as
+      <div class="main_right">
+        <!-- 글자 하나씩 나타나는 효과 주기 -->
+        <div class="textbox">
+          <span class="text"></span>
+          <span class="blink">|</span>
+        </div>
+      </div>
+      <div class="main_left"></div>
+    </div>
 
-    <div id="letter">편지로 이동</div>
+    <div class="letter_box" id="letter">레타로 이동</div>
     <script src="app.js"></script>
   </body>
 </html>

@@ -2,11 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: burlywood;
-  opacity: 0.8;
+  background-color: rgb(242, 204, 157, 0.8);
+  opacity: 0.9;
   box-sizing: border-box;
   height: 50px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0px;
 }
+
+/* 엑티베이트 클래스가 추가되면 색깔을 검정색으로 바꾸고 싶은 것 */
+/* .nav_bar .activated {
+  background-color: rgba(0, 0, 0, 00.5s);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+} */
 
 .nav_bar .nav_bar_left {
   width: 240px;
