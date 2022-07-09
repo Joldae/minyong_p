@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(242, 204, 157, 0.8);
-  opacity: 0.9;
+  background-color: rgb(255, 232, 205, 0.9);
+
   box-sizing: border-box;
   height: 50px;
   width: 100vw;
@@ -13,10 +13,12 @@
 }
 
 /* 엑티베이트 클래스가 추가되면 색깔을 검정색으로 바꾸고 싶은 것 */
-/* .nav_bar .activated {
-  background-color: rgba(0, 0, 0, 00.5s);
+.scroll_down {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: lightcyan;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-} */
+  transition: color 0.2s ease-in-out;
+}
 
 .nav_bar .nav_bar_left {
   width: 240px;
