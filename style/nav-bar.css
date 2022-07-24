@@ -2,19 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 232, 205, 0.9);
-
+  background-color: #f9f3ee;
+  opacity: 0.9;
   box-sizing: border-box;
   height: 50px;
   width: 100vw;
   position: fixed;
+  z-index: 3;
   top: 0;
   left: 0px;
 }
 
 /* 엑티베이트 클래스가 추가되면 색깔을 검정색으로 바꾸고 싶은 것 */
 .scroll_down {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(74, 74, 74);
   color: lightcyan;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transition: color 0.2s ease-in-out;

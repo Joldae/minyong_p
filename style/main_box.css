@@ -1,11 +1,23 @@
 .main_box {
-  padding-top: 50px;
+  margin-top: 50px;
   width: 100vw;
   height: 90vh;
+  /* background-color: #ffd5cd; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* 화면에 꽉 차게 맞게 조절해주는 설정 */
   /* 100 vW -> 100%의 viewport width 설정 */
   /* 100 vH -> 100%의 viewport height 설정 */
   /* background-color: rgb(178, 178, 178, 0.5); */
+  position: relative;
+  background-image: url("/Users/kicklani/WD/app_develop/minyong_p/img/wed_opacity.png");
+  background-position: center;
+}
+
+.text {
+  font-weight: bolder;
+  color: rgb(228, 99, 0);
 }
 
 .main_right .textbox {
@@ -29,3 +41,14 @@
     opacity: 0;
   }
 }
+
+/* 
+이미지 커버는 없애는걸로 하자
+.img_cover {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* 부모 대비 100% 의 크기를 갖는다 == 부모와 같은 크기 갖는다 
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 1);
+} */
